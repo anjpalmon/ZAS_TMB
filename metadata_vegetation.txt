@@ -1,0 +1,54 @@
+reporting all LAS header entries:
+  file signature:             'LASF'
+  file source ID:             0
+  global_encoding:            0
+  project ID GUID data 1-4:   00000000-0000-0000-0000-000000000000
+  version major.minor:        1.2
+  system identifier:          'LAStools (c) by rapidlasso GmbH'
+  generating software:        'lastile (170122) commercial'
+  file creation day/year:     67/2016
+  header size:                227
+  offset to point data:       229
+  number var. length records: 0
+  point data format:          1
+  point data record length:   28
+  number of point records:    1085185577
+  number of points by return: 825036524 171476577 67702755 20969721 0
+  scale factor x y z:         0.01 0.01 0.01
+  offset x y z:               500000 800000 0
+  min x y z:                  553000.00 881000.00 -0.50
+  max x y z:                  573999.99 899109.74 59.80
+the header is followed by 2 user-defined bytes
+LASzip compression (version 2.5r2 c2 50000): POINT10 2 GPSTIME11 2
+reporting minimum and maximum for all LAS point record entries ...
+  X             5300000    7399999
+  Y             8100000    9910974
+  Z                 -50       5980
+  intensity           1       4095
+  return_number       1          4
+  number_of_returns   1          4
+  edge_of_flight_line 0          1
+  scan_direction_flag 0          1
+  classification      1         18
+  scan_angle_rank   -39         35
+  user_data           0         16
+  point_source_ID     1      11029
+  gps_time 1825.501003 526707.499406
+number of first returns:        825036524
+number of intermediate returns: 87673448
+number of last returns:         827654393
+number of single returns:       655178788
+covered area in square units/kilounits: 156225692/156.23
+point density: all returns 6.95 last only 5.30 (per square units)
+      spacing: all returns 0.38 last only 0.43 (in units)
+overview over number of returns of given pulse: 655178788 207262867 140734395 82009527 0 0 0
+histogram of classification of points:
+        88628184  unclassified (1)
+       202385580  ground (2)
+       200258396  low vegetation (3)
+       163109663  medium vegetation (4)
+       351656475  high vegetation (5)
+        71846525  keypoint (8)
+            2806  wire conductor (14)
+         4563531  bridge deck (17)
+         2734417  Reserved for ASPRS Definition (18)
